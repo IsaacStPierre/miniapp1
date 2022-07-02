@@ -15,6 +15,7 @@ const Home = () => {
                 console.log(data)
                 movieData = data                
             })
+            .then(console.log(data))
         })
 
     return (
